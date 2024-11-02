@@ -13,5 +13,7 @@ while True:
                 print(item)
         case 'exit':
             break
+        case x:
+            print("Sorry, please enter either 'add' to add to your list, 'show' to show the list or 'exit' to exit")
 print("Thank you and have a good day! Bye!")
     
