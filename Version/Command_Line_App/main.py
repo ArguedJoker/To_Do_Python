@@ -2,6 +2,8 @@ todos = []
 
 while True:
     user_input = input("What do you want to do? (Type 'add', 'show' or exit):  ")
+    user_input = user_input.strip()
+    
     match user_input:
         case 'add':
             todo = input("Enter a todo: ")
