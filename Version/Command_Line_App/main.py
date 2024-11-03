@@ -10,6 +10,7 @@ while True:
             todos.append(todo)
         case 'show':
             for index, item in enumerate(todos):
+                item = item.title()
                 row = f"{index + 1} - {item}"
                 print(row)
         case 'edit':
